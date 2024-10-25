@@ -1,0 +1,29 @@
+
+
+.shadow4box{
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    transition: all ease 400ms;
+}
+
+.shadow4box:hover{
+    scale: 1.08;
+}
+
+.homeBtn{
+    background: #000;
+    color:white;
+    border-radius: 10px;
+    /* width: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all ease 400ms;
+}
+.homeBtn:hover{
+    background: #fff;
+    color:black;
+}
